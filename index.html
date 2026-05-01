@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+  <title>RAVEN | Premium Wig Studio — Crown Your Legacy</title>
+  <!-- Google Fonts + Font Awesome -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:opsz,wght@14..32,300;14..32,400;14..32,500;14..32,600;14..32,700;14..32,800&family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;1,400&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<!-- ENTRANCE PRELOADER ANIMATION -->
+<div class="preloader" id="preloader">
+  <div class="preloader-content">
+    <div class="crown-icon"><i class="fas fa-crown"></i></div>
+    <div class="preloader-text">RAVEN</div>
+    <div class="preloader-sub">luxury hair atelier</div>
+    <div class="preloader-spinner"></div>
+  </div>
+</div>
+
+<div class="toast-msg" id="toastMsg">✨ Added to your collection</div>
+<button class="back-to-top" id="backToTop"><i class="fas fa-arrow-up"></i></button>
+
+<header>
+  <div class="container">
+    <div class="navbar">
+      <div class="logo" id="logo">RAVEN <span>hair atelier</span></div>
+      <div class="nav-links">
+        <a class="nav-link" data-section="home">Home</a>
+        <a class="nav-link" data-section="shop">Shop</a>
+        <a class="nav-link" data-section="about">About</a>
+        <a class="nav-link" data-section="contact">Contact</a>
+        <button class="theme-toggle" id="themeToggle"><i class="fas fa-moon"></i> <span id="themeText">Dark</span></button>
+        <div class="cart-icon" id="cartIconBtn">
+          <i class="fas fa-shopping-bag"></i>
+          <span class="cart-count" id="cartCount">0</span>
+        </div>
+      </div>
+    </div>
+  </div>
+</header>
+
+<main>
+  <section class="hero" id="home">
+    <div class="container hero-grid">
+      <div class="hero-content">
+        <div class="badge">✨ NEW SILKTOP COLLECTION</div>
+        <h1>Elevate Every Crown.<br>Uncompromised Luxury.</h1>
+        <p>Handcrafted virgin hair wigs, breathable caps & natural hairlines — made for the modern woman who refuses to blend in.</p>
+        <button class="hero-btn" id="shopNowBtn">Shop Now <i class="fas fa-arrow-right"></i></button>
+      </div>
+      <div class="hero-image">
+        <img src="hair.jpg" alt="Luxury wig model">
+      </div>
+    </div>
+  </section>
+
+  <div class="container" id="shop">
+    <h2 class="section-title">Best Sellers · Signature Collection</h2>
+    <div class="product-grid" id="productGrid"></div>
+  </div>
+
+  <!-- VISION & MISSION SECTION -->
+  <div class="container" id="about">
+    <div class="vision-mission-section">
+      <h2 class="section-title">Our Vision & Mission</h2>
+      <div class="vm-container">
+        <div class="vm-card"><div class="vm-icon"><i class="fas fa-eye"></i></div><h3>Our Vision</h3><p>To become the world's most trusted luxury wig brand, empowering every woman to express her unique beauty with confidence, elegance, and authenticity. We envision a world where every crown tells a story of empowerment.</p></div>
+        <div class="vm-card"><div class="vm-icon"><i class="fas fa-bullseye"></i></div><h3>Our Mission</h3><p>To deliver premium, handcrafted wigs using 100% Remy human hair with innovative lace technology, making luxury accessible while ensuring comfort, durability, and natural elegance for every queen who wears our crown.</p></div>
+      </div>
+    </div>
+
+    <!-- DIRECTORS SECTION -->
+    <div class="directors-section">
+      <h2 class="section-title">Meet Our Directors</h2>
+      <div class="directors-grid">
+        <div class="director-card"><img src="https://static.vecteezy.com/system/resources/thumbnails/026/843/732/small_2x/portrait-of-beautiful-young-woman-with-happy-and-confident-face-on-studio-background-business-concept-ai-generated-free-photo.jpeg" alt="CEO" class="director-img"><h3>Raven Aighobahi</h3><div class="title">Founder & CEO</div><p>Visionary leader with 15+ years in luxury hair industry. Pioneered the silk-top revolution in West Africa.</p></div>
+        <div class="director-card"><img src="https://www.shutterstock.com/image-photo/smiling-senior-businessman-entrepreneur-working-600nw-2623519257.jpg" alt="Creative Director" class="director-img"><h3>Michael Okonkwo</h3><div class="title">Creative Director</div><p>Award-winning stylist responsible for our signature lace technology and innovative wig designs.</p></div>
+        <div class="director-card"><img src="https://static.vecteezy.com/system/resources/thumbnails/069/088/048/small_2x/beautiful-woman-with-long-brown-hair-smiling-photo.JPG" alt="Operations Head" class="director-img"><h3>Sarah Johnson</h3><div class="title">Head of Operations</div><p>Ensures quality control and seamless global shipping across 25+ countries.</p></div>
+      </div>
+    </div>
+
+    <!-- SHOWROOM SECTION -->
+    <div class="showroom-section">
+      <div class="showroom-grid">
+        <div class="showroom-images"><div class="showroom-img"><img src="https://c8.alamy.com/comp/3D9KBMF/a-general-view-showing-the-human-hair-wig-display-at-the-shop-on-december-5-2025-in-shanghai-china-photo-by-stringernexpher-imagessipa-usa-3D9KBMF.jpg" alt="Luxury Showroom"></div><div class="showroom-img"><img src="https://c8.alamy.com/comp/MHMPM8/wig-store-in-china-MHMPM8.jpg" alt="Wig Display"></div></div>
+        <div class="showroom-info"><h3><i class="fas fa-store"></i> Our Flagship Showroom</h3><p>Located in the heart of Lagos, our 2,500 sq ft luxury showroom offers an immersive wig experience. Clients can try on over 200+ wig styles in private fitting rooms with professional stylists.</p><p><strong>📍 Address:</strong> 42b, Adeola Odeku Street, Victoria Island, Lagos, Nigeria</p><p><strong>🕒 Showroom Hours:</strong> Monday - Saturday: 10am - 7pm | Sunday: 12pm - 5pm</p></div>
+      </div>
+    </div>
+
+    <!-- OPERATIONS & ACHIEVEMENTS -->
+    <div class="stats-section">
+      <h2 class="section-title">Our Impact & Achievements</h2>
+      <div class="stats-grid">
+        <div class="stat-card"><i class="fas fa-users"></i><div class="stat-number">50,000+</div><div class="stat-label">Happy Customers</div></div>
+        <div class="stat-card"><i class="fas fa-globe"></i><div class="stat-number">25+</div><div class="stat-label">Countries Served</div></div>
+        <div class="stat-card"><i class="fas fa-trophy"></i><div class="stat-number">15</div><div class="stat-label">Industry Awards</div></div>
+        <div class="stat-card"><i class="fas fa-clock"></i><div class="stat-number">24/7</div><div class="stat-label">Customer Support</div></div>
+      </div>
+      <div class="operations-detail"><h3><i class="fas fa-chart-line"></i> Operational Excellence</h3><p>Luxoria operates a fully integrated supply chain from raw material sourcing in Brazil and India to our in-house manufacturing facility in Lagos. We maintain a 99.7% customer satisfaction rating with average delivery time of 3-5 business days globally. Our wigs are trusted by celebrities, influencers, and beauty professionals across Africa, Europe, and North America.</p></div>
+    </div>
+
+    <!-- FULL CONTACT DETAILS - EMAILS PROPERLY INSIDE BOX -->
+    <div class="full-contact-section" id="contact">
+      <h2 class="section-title">Contact Information</h2>
+      <div class="contact-details-grid">
+        <div class="contact-detail-card"><i class="fas fa-map-marker-alt"></i><h4>Head Office</h4><p>42b, Adeola Odeku Street, Victoria Island, Lagos, Nigeria</p><p>+234 813 844 4055</p></div>
+        <div class="contact-detail-card"><i class="fas fa-envelope"></i><h4>Email Us</h4><div class="email-container"><a href="mailto:captainadonaidaberechi@gmail.com">captainadonaidaberechi@gmail.com</a><a href="mailto:support@luxoria.com">support@luxoria.com</a></div></div>
+        <div class="contact-detail-card"><i class="fas fa-phone-alt"></i><h4>Phone Lines</h4><p>Sales: 08138444055</p><p>Support: 08012345678</p><p>WhatsApp: 08138444055</p></div>
+        <div class="contact-detail-card"><i class="fab fa-instagram"></i><h4>Social Media</h4><p>@luxoriahair</p><p>@luxoria_wigs</p></div>
+      </div>
+    </div>
+  </div>
+
+  <div class="container features">
+    <div class="features-grid">
+      <div class="feature-item"><i class="fas fa-leaf"></i><h4>100% Remy Hair</h4><p>Soft, tangle-free & natural</p></div>
+      <div class="feature-item"><i class="fas fa-ruler-combined"></i><h4>Breathable Cap</h4><p>All-day comfort</p></div>
+      <div class="feature-item"><i class="fas fa-hand-holding-heart"></i><h4>Pre-plucked Hairline</h4><p>Undetectable</p></div>
+      <div class="feature-item"><i class="fas fa-truck-fast"></i><h4>Free Express Shipping</h4><p>On $150+ orders</p></div>
+    </div>
+  </div>
+
+  <div class="container newsletter-banner"><h3>Join the Raven Circle</h3><p>Get 15% off your first wig + early access</p><div class="newsletter-form"><input type="email" id="newsletterEmail" placeholder="Your email"><button id="subscribeBtn">Subscribe</button></div></div>
+</main>
+
+<footer>
+  <div class="container footer-inner">
+    <div class="footer-col"><h4>RAVEN</h4><p>Redefining luxury wigs with artistry & comfort.</p></div>
+    <div class="footer-col"><h4>Contact</h4><p><a href="tel:+2348138444055">08138444055</a></p><p><a href="mailto:captainadonaidaberechi@gmail.com">captainadonaidaberechi@gmail.com</a></p><p>42b, Victoria Island, Lagos</p></div>
+    <div class="footer-col"><div class="social-icons"><i class="fab fa-instagram"></i><i class="fab fa-pinterest"></i><i class="fab fa-tiktok"></i></div></div>
+  </div>
+  <div class="container footer-copyright">© 2025 RAVEN — Luxury Wig Studio. All rights reserved.</div>
+</footer>
+
+<!-- Cart Sidebar -->
+<div class="cart-overlay" id="cartOverlay"><div class="cart-sidebar"><div class="cart-header"><h3>Your Cart</h3><button class="close-cart" id="closeCartBtn">&times;</button></div><div class="cart-items" id="cartItemsList"><div class="empty-cart-msg">Your crown awaits ✨</div></div><div class="cart-total"><span>Total</span><span id="cartTotalPrice">$0</span></div><button class="checkout-btn" id="checkoutBtn">Proceed to Payment</button></div></div>
+
+<!-- Payment Modal -->
+<div class="payment-modal" id="paymentModal"><div class="payment-container"><div class="payment-header"><h3>Secure Checkout</h3><button class="close-payment" id="closePaymentBtn">&times;</button></div><div class="payment-amount"><span id="paymentAmount">$0</span></div><div class="compact-form"><div class="input-group"><label>FULL NAME</label><input type="text" id="fullName"></div><div class="input-group"><label>EMAIL</label><input type="email" id="emailAddress"></div><div class="input-group"><label>ADDRESS</label><input type="text" id="address"></div><div class="input-group"><label>PHONE</label><input type="tel" id="phoneNumber"></div><div class="input-group"><label>CARD NUMBER</label><input type="text" id="cardNumber" maxlength="19"></div><div class="double-row"><div class="input-group"><label>EXPIRY</label><input type="text" id="cardExpiry" placeholder="MM/YY" maxlength="5"></div><div class="input-group"><label>CVV</label><input type="password" id="cardCvv" maxlength="4"></div></div><div class="terms-group"><input type="checkbox" id="termsCheckbox"><label>I agree to Terms & Conditions</label></div><button class="pay-now-btn" id="payNowBtn" disabled>Confirm & Pay</button><div class="payment-icons"><i class="fab fa-cc-visa"></i> <i class="fab fa-cc-mastercard"></i></div></div></div></div>
+
+<script src="script.js"></script>
+</body>
+</html>
